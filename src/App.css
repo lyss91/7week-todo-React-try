@@ -1,0 +1,39 @@
+/* 버튼 공통 스타일 */
+.todo-button {
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* 수정 버튼 스타일 */
+.todo-button.edit {
+  background-color: red;
+  color: white;
+}
+
+.todo-button.edit:hover {
+  background-color: darkred;
+}
+
+/* 삭제 버튼 스타일 */
+.todo-button.delete {
+  background-color: blue;
+  color: white;
+}
+
+.todo-button.delete:hover {
+  background-color: darkblue;
+}
+
+/* 자세히 보기 버튼 스타일 */
+.todo-button.view {
+  background-color: rgb(97, 228, 97);
+  color: white;
+}
+
+.todo-button.view:hover {
+  background-color: darkgreen;
+}
